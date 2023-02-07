@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.HotelFor">
+    <children>
+        <ImageView fx:id="image1" fitHeight="314.0" fitWidth="216.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@trenerka.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text1" layoutX="311.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тренажёрный зал" wrappingWidth="187.80859375">
+            <font>
+                <Font name="Gabriola" size="28.0" />
+            </font>
+        </Text>
+        <Text fx:id="text2" layoutX="249.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время работы: круглосуточно">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+        <Button fx:id="add" layoutX="29.0" layoutY="353.0" mnemonicParsing="false" text="Вернуться" />
+        <Text layoutX="249.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ВСЕ ПОСЕТИТЕЛИ ТРЕНАЖНОГО ЗАЛА ОБЯЗАНЫПосещать тренажерный зал в спортивной форме одежды, не стесняющей движение и в сменной чистой спортивной обуви.Подчиняться обоснованным требованиям администратораДля обеспечения собственной безопасности ознакомиться с Правилами посещения тренажерного залаВ целях предупреждения травматизма начинать занятия с обязательной общей разминкиИсключить прием пищи непосредственно перед и во время тренировкиПеред использованием специального оборудования тренажерного зала уточнить у администратора, какие меры безопасности необходимо соблюдать на том, или ином тренажере, на что обратить особое вниманиеСтрого соблюдать меры безопасности во время занятий на тренажерах/силовых машинах.При наступлении плохого самочувствия во время занятий – прекратить тренировку." wrappingWidth="330.4625244140625">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+    </children>
+</Pane>

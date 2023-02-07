@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.NumberFor">
+    <children>
+        <ImageView fx:id="image1" fitHeight="209.0" fitWidth="225.0" layoutX="28.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@numberfor.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text1" layoutX="366.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер №4">
+            <font>
+                <Font name="Gabriola" size="28.0" />
+            </font>
+        </Text>
+        <Text fx:id="text2" layoutX="261.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="«Номер 1-ой категории «Двухместный»Номера категории «Двухместный» идеально подходят для размещения как 1, так и 2 гостей. Удобные односпальные кровати с прикроватными тумбочками, ванная комната с душем -- все, что нужно для комфортного проживания.Площадь номера - 13 кв.м.· прикроватная тумбочка, настольная лампа, платяной шкаф/вешалка с багажной полкой, телевизор, письменный стол, холодильник, мини-бар (платно),телефон, фен (по запросу),набор банных принадлежностей.В стоимость проживания включено:· вызов такси, побудка к определенному времени, городские телефонные звонки, камера хранения (до 6 часов),спутниковые каналы, банкомат/платежный терминал, машина для чистки обуви, гладильные комнаты, кулер на этаже, аптечка первой медицинской помощи, бесплатный wi-fii,библиотека." textAlignment="JUSTIFY" wrappingWidth="325.5987548828125">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Button fx:id="add" layoutX="22.0" layoutY="361.0" mnemonicParsing="false" text="Вернуться" />
+    </children>
+</Pane>

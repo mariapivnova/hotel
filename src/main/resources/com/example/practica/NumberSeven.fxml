@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.NumberSeven">
+    <children>
+        <ImageView fx:id="image1" fitHeight="209.0" fitWidth="225.0" layoutX="28.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@numberTwoThree.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text1" layoutX="366.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер №7">
+            <font>
+                <Font name="Gabriola" size="28.0" />
+            </font>
+        </Text>
+        <Text fx:id="text2" layoutX="258.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер для молодоженов — это завершающая часть радостного торжества, ставшая уже традицией. После насыщенного и порой тяжелого дня, для молодых номер в гостинице – это возможность побыть наедине, и завершить торжество в спокойной романтичной обстановке. Главное требование к номеру: атмосфера романтики, которая и отличает такой номер от других номеров в отеле, особый дизайн, обслуживание в номере. Это не какой-то конкретный номер в отеле, в котором проживают только новобрачные, это услуга, которую гостиница оказывает молодым в предоставлении украшенного и полного романтики номера, соответствующего пожеланиям молодой пары." textAlignment="JUSTIFY" wrappingWidth="332.7987060546875">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Button fx:id="add" layoutX="22.0" layoutY="361.0" mnemonicParsing="false" text="Вернуться" />
+    </children>
+</Pane>

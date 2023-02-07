@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.Controller">
+    <children>
+        <TableView fx:id="tableView" layoutX="250.0" layoutY="31.0" prefHeight="297.0" prefWidth="332.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="115.20001220703125" text="ФИО" />
+                <TableColumn fx:id="ageColumn" prefWidth="106.4000244140625" text="Дата заселения" />
+                <TableColumn fx:id="numberColumn" prefWidth="111.20001220703125" text="Тип номера(№)" />
+            </columns>
+        </TableView>
+        <VBox layoutX="24.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" spacing="5.0">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ФИО" />
+            <TextField fx:id="nameInput" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Дата заселения" />
+            <TextField fx:id="ageInput" />
+            <Text layoutX="10.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип номера(№)" />
+            <TextField fx:id="numberInput" />
+            <Button mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="200.0" text="Добавить" />
+        </VBox>
+        <Button layoutX="452.0" layoutY="349.0" mnemonicParsing="false" onAction="#removeCustomer" text="Удалить" />
+        <Button fx:id="save" layoutX="300.0" layoutY="349.0" mnemonicParsing="false" text="Подтвердить" />
+      <ImageView fx:id="dog1" fitHeight="259.0" fitWidth="356.0" layoutX="-79.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dog1.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

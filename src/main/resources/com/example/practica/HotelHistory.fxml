@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.HotelHistory">
+   <children>
+      <ImageView fx:id="image" fitHeight="217.0" fitWidth="235.0" layoutX="25.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hotel.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="text6" layoutX="312.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Гостиница &quot;Спутник&quot;">
+         <font>
+            <Font name="Gabriola" size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="text1" layoutX="25.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В гостиничный комплекс входит:">
+         <font>
+            <Font name="Gabriola" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" layoutX="25.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Круглосуточный ресторан " />
+      <Text fx:id="text3" layoutX="25.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Детский клуб " />
+      <Text fx:id="text4" layoutX="25.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Тренажёрный зал" />
+      <Text fx:id="text5" layoutX="25.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Крытый бассейн" />
+      <Button fx:id="button1" layoutX="417.0" layoutY="343.0" mnemonicParsing="false" text="Подробнее о развлечениях" />
+      <Text layoutX="279.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Гостиница &quot;Спутник&quot;.Трёхзвездочный отель «Спутник» — современный гостиничный комплекс в северной части Петербурга, в радиусе 30-минутной доступности Невского проспекта и исторического центра Северной столицы. Гостиница «Спутник» расположена в самой живописной части Выборгского района Петербурга в окружении парков «Сосновка», «У Серебряного пруда», «Удельный». Удобное транспортное сообщение с центром и курортной зоной Северной столицы позволяет гостям отеля разнообразить отдых, знакомиться с достопримечательностями и увозить из города на Неве массу новых ярких впечатлений. Номерной фонд гостиницы 220 номеров." textAlignment="JUSTIFY" wrappingWidth="295.3831787109375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
